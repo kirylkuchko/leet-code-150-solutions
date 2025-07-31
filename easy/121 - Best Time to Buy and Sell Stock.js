@@ -19,8 +19,8 @@ let maxProfitExponential = function(prices) {
     return bestDeal;   
 };
 
-console.log(maxProfit([7,1,5,3,6,4]));
-console.log(maxProfit([7,6,4,3,1]));
+console.log(maxProfitExponential([7,1,5,3,6,4]));
+console.log(maxProfitExponential([7,6,4,3,1]));
 
 /**
  * @param {number[]} prices
@@ -41,5 +41,5 @@ let maxProfitLinear = function(prices) {
     return bestDeal;     
 };
 
-console.log(maxProfitLiniar([7,1,5,3,6,4]));
-console.log(maxProfitLiniar([7,6,4,3,1]));
+console.log(maxProfitLinear([7,1,5,3,6,4]));
+console.log(maxProfitLinear([7,6,4,3,1]));
